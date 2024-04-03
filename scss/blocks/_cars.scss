@@ -1,0 +1,118 @@
+.cars{
+    width: 100%;
+    background-color: #EBEBEB;
+    padding: 120px 0px;
+    
+}
+.cars-wrapper{
+    width: 100%;
+    background-color: #EBEBEB;
+        .cars-title-wrapper{
+            display: flex;
+            gap: 60px;
+            padding-bottom: 48px;
+                .cars-title{
+                    @include titleStyle("Unbounded", 48px, 700, 62px, #1F1F1F);
+                }
+                .cars-btn{
+                    @include btn(12px 20px, 8px, 2px solid #1F1F1F, transparent);
+                    @include textStyle(13px, 700, 20px, #1F1F1F)
+                }
+        }
+}
+.cars-buttons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+        .car-primary-btn{
+            @include btn(27px 30px, 10px, none, #1f1f1f);
+           @include textStyle(14px, 700, 20px, #fff);
+           display: flex;
+           align-items: center;
+           gap: 20px;
+        }
+        .car-secondary-btn{
+            @include btn(27px 30px, 10px, none, #fff);
+            @include textStyle(14px, 700, 20px, #1F1F1F);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+}
+.card-wrapper{
+    width: 100%;
+    min-height: 483px;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    padding-bottom:120px ;
+    .card-auto{
+        width: 100%;
+        max-width: 424px;
+        min-height: 483px;
+        background-color: #fff;
+            .card-image{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 24px;
+            }
+            .car-made{
+                width: 100%;
+                display: flex;
+                justify-content: end;
+                span{
+                    @include textStyle(9px, 700, 9px, #1F1F1F);
+                  @include btn(9px 10px, 6px,none, #F0F0F0);
+                }
+            }
+            .card-content{
+                padding: 0px 0px 0px 50px;
+                .content-title{
+                    @include textStyle(20px,700, 20px, #1F1F1F)
+                }
+            }
+    }
+}
+
+.content-list{
+    display: flex;
+    gap: 26px;
+    margin-top: 30px;
+        &-item{
+            @include textStyle(13px, 700, 20px, #707070);
+        }
+}
+.border{
+    width: 100%;
+    max-width: 324px;
+    border-bottom: 1px solid #EBEBEB;
+    margin-top: 34px;
+    margin-bottom: 40px;
+}
+.bron{
+    display: flex;
+    align-items: center;
+    gap: 57px;
+        span{
+           @include textStyle(14px, 700, 20px, #ABABAB);
+            strong{
+                @include textStyle(24px, 700, 20px, #1F1F1F);
+            }
+        }
+    
+}
+.bron-btn{
+ @include btn(10px 20px, 6px, none, transparent);
+ @include textStyle(12px, 700, 20px, #fff);
+ background: linear-gradient(67.38deg, #9F7437 9.19%, #E3D293 92.03%);
+
+}
+.cars-about{
+    @include textStyle(28px, 600, 38px, #1F1F1F);
+    padding-bottom: 36px;
+}
+.cars-about-text{
+    @include textStyle(18px, 500, 30px, #9F9F9F);
+}

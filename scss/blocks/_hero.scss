@@ -1,6 +1,8 @@
 .hero{
     width: 100%;
+    min-height: 1101px;
     background-color: #EBEBEB;
+    // padding: 0px 0px 150px 0px;
  
 }
 .hero-wrapper{
@@ -19,7 +21,7 @@
         .hero-content{
             width: 100%;
             max-width: 1320px;
-            min-height: 504px;
+            // min-height: 504px;
             display: flex;
             flex-direction: column;
             align-items: center;

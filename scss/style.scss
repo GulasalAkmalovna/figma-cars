@@ -2,18 +2,19 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        font-family: sans-serif;   
+        font-family: sans-serif;  
     }
     .primary-container{
         width: 100%;
         max-width: 1860;
         margin: 0 auto;
-        height: 100vh;
+        // height: 100vh;
     }
     .secondary-container{
         width: 100%;
         max-width: 1320px;
         margin: 0 auto;
+        background-color: crimson;
     }
     @font-face {
         font-family: "PP Pangram Sans";
