@@ -1,0 +1,99 @@
+.header{
+    width: 100%;
+    background-color: #181818;
+    margin: 0 auto;
+    padding: 38px 0px 41px 0px;
+    &__nav{
+        width: 100%;
+        max-width: 1801px;
+        display: flex;
+        align-items: center;
+        gap: 85.33px;
+        justify-content: space-between;
+        margin: 0 auto;
+        background-color: #181818;
+ 
+        &-logo{
+            display: flex;
+            align-items: center;
+            gap: 55px;
+        }
+        &-list{
+        display:flex ;
+        gap: 50px;
+        .item-link{
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 22px;
+            color: #fff;
+        }
+    }
+   }
+}
+.nav-servise{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    span{
+        display: flex;
+        gap: 14px;
+        align-items: center;
+        .bi-telegram{
+            color: #3C3C3C;
+        }
+        .bi-whatsapp{
+            color: #3C3C3C;
+        }
+    }
+    .tel-wrap{
+        display: flex;
+        gap: 32px;
+        .tel-link{
+            font-weight: 700;
+            font-size: 18px;
+            color: #fff;
+        }
+         .nav-btn{
+            padding: 12px 20px;
+            font-weight: 700;
+            font-size: 13px;
+            color: #fff;
+            border-radius: 8px;
+            border: 2px solid #3C3C3C;
+         }
+    }
+}
+.nav-icon{
+    display: flex;
+    gap: 12px;
+    .icon-wrapper{
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        background-color: #0A0A0A;
+        position: relative;
+    }
+    .count{
+        padding: 2px 4px;
+        background-color: crimson;
+        color: #fff;
+        font-size: 9px;
+        border-radius: 50%;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+}
+
+.bi-car-front-fill{
+    position: absolute;
+    bottom:15px;
+    left: 15px;
+    color: #fff;
+}
+.bi-person-fill{
+    position: absolute;
+    bottom:15px;
+    left: 15px;
+    color: #fff;
+}

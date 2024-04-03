@@ -1,0 +1,42 @@
+.hero{
+    width: 100%;
+    background-color: white;
+ 
+}
+.hero-wrapper{
+    width: 100%;
+    max-width: 1860px;
+    height: 966px;
+    margin: 0 auto;
+    background-image: url("../../images/hero-image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        .hero-content{
+            width: 100%;
+            max-width: 1320px;
+            min-height: 504px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 5px solid crimson;
+                .hero-title{
+                    @include titleStyle("Unbounded", 89px, 700, 95px, #fff);
+                    width: 100%;
+                    max-width: 754px;
+                    text-align: center;
+                    margin-bottom: 40px;
+                }
+                .hero-text{
+                    @include textStyle(24px,500, 32px, #d9d7d7);
+                    margin-bottom: 120px;
+                }
+        }
+}
+.sum-list{
+    // display: flex;
+    // gap: 48.22px;
+    
+}
