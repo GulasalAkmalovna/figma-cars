@@ -1,53 +1,64 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: sans-serif;   
-}
-.primary-container{
-    width: 100%;
-    max-width: 1860;
-    margin: 0 auto;
-    // background-color: aqua;
-    height: 100vh;
-}
-.secondary-container{
-    width: 100%;
-    max-width: 1320px;
-    margin: 0 auto;
-}
-@font-face {
-    font-family: "PP Pangram Sans";
-    src: url(../fonts/PangramSans.woff2);
-}
-@font-face {
-    font-family: "Unbounded";
-    src: url(../fonts/Unbounded.woff2);
-}
-a{
-    text-decoration: none
-}
-ul{
-    list-style: none;
-}
-@mixin titleStyle($family, $size, $weight, $height, $color){
-    font-family:$family;
-    font-size: $size;
-    font-weight: $weight;
-    line-height: $height;
-    color: $color;
-};
-@mixin textStyle( $size, $weight, $height, $color){
-    font-size: $size;
-    font-weight: $weight;
-    line-height: $height;
-    color: $color;
-};
-@import "./blocks/nav";
-@import "./blocks/hero";
-@import "./blocks/cars";
-@import "./blocks/arenda";
-@import "./blocks/action";
-@import "./blocks/about";
-@import "./blocks/service";
-@import "./blocks/finish";
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;   
+    }
+    .primary-container{
+        width: 100%;
+        max-width: 1860;
+        margin: 0 auto;
+        height: 100vh;
+    }
+    .secondary-container{
+        width: 100%;
+        max-width: 1320px;
+        margin: 0 auto;
+    }
+    @font-face {
+        font-family: "PP Pangram Sans";
+        src: url(../fonts/PangramSans.woff2);
+    }
+    @font-face {
+        font-family: "Unbounded";
+        src: url(../fonts/Unbounded.woff2);
+    }
+    a{
+        text-decoration: none
+    }
+    ul{
+        list-style: none;
+    }
+    @mixin titleStyle($family, $size, $weight, $height, $color){
+        font-family:$family;
+        font-size: $size;
+        font-weight: $weight;
+        line-height: $height;
+        color: $color;
+    };
+    @mixin textStyle( $size, $weight, $height, $color){
+        font-size: $size;
+        font-weight: $weight;
+        line-height: $height;
+        color: $color;
+    };
+    @mixin btn($pad,$radius, $border, $bg-color){
+        padding:$pad;
+        border-radius: $radius;
+        border:$border;
+        background-color:$bg-color ;
+
+    };
+
+    // @mixin center($display,$align,$justify,$gap){
+    //     align-items:$align;
+    // };
+
+    @import "./blocks/nav";
+    @import "./blocks/hero";
+    @import "./blocks/cars";
+    @import "./blocks/arenda";
+    @import "./blocks/action";
+    @import "./blocks/about";
+    @import "./blocks/service";
+    @import "./blocks/finish";

@@ -74,14 +74,14 @@
         position: relative;
     }
     .count{
-        padding: 2px 4px;
+        padding: 4px 8px;
         background-color: crimson;
         color: #fff;
-        font-size: 9px;
+        font-size: 12px;
         border-radius: 50%;
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: -4px;
+        right: -8px;
     }
 }
 
